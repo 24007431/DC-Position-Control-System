@@ -55,7 +55,7 @@ The equation (1) can be written as <br>
 5.	Analyse the output in open loop and closed loop.
 
 ## Program
-
+~~~
 kt = 0.0274;
 rf = 4;
 lf = 2.75e-6;
@@ -71,6 +71,7 @@ cl_sys = feedback(ol_sys,1)
 subplot(2,1,2)
 step(cl_sys)
 title('Closed loop response')
+~~~
 
 
 ## Output
